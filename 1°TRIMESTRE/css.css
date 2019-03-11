@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  /* ou 0px */
+  margin: 20px;
+}
+
+body {
+ background-color: #F8E0EC;
+}
+/*As classes são representadas pelo ponto final*/
+.menu{
+ background-color: #F5A9BC;
+ color: #FFFFFF;
+ font-size: 20px;
+ text-align: justify;
+
+}
+/* um id é representado pelo sinal # */
+#rodapePrincipal{
+ text-align: center;
+}
+.rodape{
+ background-color: #F5A9BC;
+ color: #FFFFFF;
+}
+.conteudo{
+ border-style: solid;
+ /* define o tamanho da borda  */
+ border-width: 2px;
+ border-color: #0000FF;
+
+}
