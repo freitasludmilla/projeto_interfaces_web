@@ -1,20 +1,56 @@
 *{
   padding: 0;
   /* ou 0px */
-  margin: 20px;
+
   font-family: 'Barlow Condensed', sans-serif;
 }
 
 body {
- background-color: #F8E0EC;
+ background-color: #FFFFFF;
+ padding-left: 20px;
+ padding-right: 20px;
 }
-/*As classes são representadas pelo ponto final*/
-.menu{
- background-color: #F5A9BC;
- color: #FFFFFF;
- font-size: 20px;
- text-align: justify;
 
+.curriculo{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, p, br{
+  padding-left: 10px;
+}
+
+/*As classes são representadas pelo ponto final*/
+.titulo{
+ background-color: #F79F81;
+ color: #000000;
+}
+.nome{
+  font-size: 20px;
+  float: left;
+}
+
+.dados{
+  text-align: right;
+  font-size: 15px;
+  float: right;
+}
+.dados li img {
+  margin: 0;
+  margin-left: 5px;
+  width: 18px;
+  height: 18px;
+}
+
+.dados li{
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.clear{
+  clear: both;
 }
 /* um id é representado pelo sinal # */
 #rodapePrincipal{
@@ -28,6 +64,6 @@ body {
  border-style: solid;
  /* define o tamanho da borda  */
  border-width: 2px;
- border-color: #0000FF;
+ border-color: #F79F81;
 
 }
