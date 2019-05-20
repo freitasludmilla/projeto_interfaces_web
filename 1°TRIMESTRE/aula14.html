@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- Importação do bootstrap -->
+   <link rel="stylesheet" href="bootstrap.css">
+
+   <!-- Importação do Jquery -->
+   <script src="jquery-3.4.1.min.js"></script>
+
+   <!-- utilização do javascript, jquery -->
+   <script>
+      //evento
+      $(document).ready( function(){
+
+        $("#btnPessoais").click(function(){
+          $(".Pessoais").show();
+        });
+
+        $("#btnContato").click(function(){
+          $(".Contato").show();
+        });
+
+        $("#btnAcademicos").click(function(){
+          $(".Academicos").show();
+        });
+
+
+      //   // evento de botão
+      //   $("#btnEsconder").click(function(){
+      //     //alert("Funcionou!");
+      //     //$(seletor).função();
+      //     //$(seletor).ação() ex hide
+      //     //esconde botão
+      //     $("#p1").hide();
+      //   });
+      //
+      //   //mostrar botão
+      //   $("#btnMostrar").click(function() {
+      //     $("#p1").show();
+      //   });
+      //
+
+    });
+
+   </script>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h2>Introdução ao Jquery</h2>
+
+      <p id= "p1">Ludmilla Silva Freitas</p>
+
+      <!-- <p id= "p2">paragrafo2</p>
+      <p id= "p3">paragrafo3</p> -->
+
+      <!-- <button type="button" class= "btn btn-info" id= "btnEsconder">
+        Esconder
+      </button>
+
+      <button type="button" class= "btn btn-info" id= "btnMostrar">
+        Mostrar
+      </button> -->
+      <!-- linha -->
+      <hr>
+        <!-- Exemplo com abas -->
+        <h2>Abas</h2>
+
+        <button type="button" class="btn btn-info" id="btnPessoais">
+          Dados Pessoais
+        </button>
+
+        <button type="button" class="btn btn-info" id="btnAcademicos ">
+          Dados Acadêmicos
+        </button>
+
+        <button type="button" class="btn btn-info" id="btnContato">
+          Dados de Contado
+        </button>
+         <!-- d-none -->
+        <div class="Pessoais" style="display: none;">
+          <h4>Nome: Ludmilla</h4>
+          <h4>Data nascimento: 05/08/2001</h4>
+          <h4>Estado civil: salteira</h4>
+        </div>
+
+        <div class="Academicos" style="display: none;">
+          <h4>Formação: Ensino Médil incompleto (2019) </h4>
+          <h4>Formação complementar: Técnico em informática incompleto</h4>
+        </div>
+
+        <div class="Contato" style="display: none;">
+          <h4>Telefone: +55 (44) 991061602 </h4>
+          <h4>Email: ludmilla.freitas@outlook.com</h4>
+        </div>
+
+
+
+    </div>
+
+
+
+  </body>
+</html>
